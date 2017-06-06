@@ -1,2 +1,2 @@
 # ssmr
-redis操作
+SSM 整合redis操作
