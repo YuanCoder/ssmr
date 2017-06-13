@@ -27,7 +27,6 @@ public class StrLenService {
 	
 	
 	private final class StrLenrc implements RedisCallback<Long>{
-		@Override
 		public Long doInRedis(RedisConnection rc) throws DataAccessException {
 		    String key = "1";
 		    Long length =  rc.strLen(key.getBytes());

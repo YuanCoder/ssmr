@@ -29,7 +29,6 @@ public class SetNxService {
 	
 	
 	private final class SetNxrc implements RedisCallback<String>{
-		@Override
 		public String  doInRedis(RedisConnection rc) throws DataAccessException {
 			String key = "not exists";
 			String value = "not exists value";

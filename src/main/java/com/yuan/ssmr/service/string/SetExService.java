@@ -30,7 +30,6 @@ public class SetExService {
 	
 	
 	private final class Exrc implements RedisCallback<Object>{
-		@Override
 		public Object doInRedis(RedisConnection rc)
 				throws DataAccessException {
 			// TODO Auto-generated method stub

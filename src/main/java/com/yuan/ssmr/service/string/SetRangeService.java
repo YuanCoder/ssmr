@@ -25,7 +25,6 @@ public class SetRangeService {
 	
 	
 	private final class SetRangerc implements RedisCallback<String>{
-		@Override
 		public String  doInRedis(RedisConnection rc)
 				throws DataAccessException {
 		    String key = "1";
