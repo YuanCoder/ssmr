@@ -73,7 +73,7 @@
           <property name="hostName" value="${redis.host}" />  
           <property name="Database" value="${redis.dataBase}" />
           <property name="password" value="${redis.password}" />
-          <property name="timeout" value="${redis.timeout}" ></property>  
+          <property name="timeout" value="${redis.timeout}" />  
     </bean >  
     <bean id="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate" > <!--  RedisTemplate -->
           <property name="connectionFactory" ref="connectionFactory" />  
